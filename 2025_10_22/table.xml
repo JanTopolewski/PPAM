@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="124dp"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FBC2C2"
+            android:text="@string/czesc" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:autofillHints="emailAddress"
+            android:ems="10"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#03A9F4"
+            android:text="@string/wyslij"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#03A9F4"
+            android:text="@string/resetuj"
+            android:textColor="#000000" />
+    </TableRow>
+
+</TableLayout>
