@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">2025_10_29</string>
+    <string name="zarejestruj_si">Zarejestruj się</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="ulica">Ulica</string>
+    <string name="numer_domu_mieszkania">Numer domu/mieszkania</string>
+    <string name="kod_pocztowy">Kod pocztowy</string>
+    <string name="miasto">Miasto</string>
+    <string name="kraj">Kraj</string>
+    <string name="data_urodzenia">Data urodzenia</string>
+    <string name="adres_e_mail">Adres e-mail</string>
+    <string name="haslo">Hasło</string>
+    <string name="powtorz_haslo">Powtórz hasło</string>
+    <string name="numer_pesel">Numer pesel</string>
+    <string name="wysylaj_powiadomienia_na_adres_email">Wysyłaj powiadomienia na adres email</string>
+    <string name="wybierz_subskrypcje">Wybierz subskrypcję</string>
+    <string name="free">Free</string>
+    <string name="plus">Plus</string>
+    <string name="pro">Pro</string>
+    <string name="zarejestruj_konto">Zarejestruj konto</string>
+</resources>
