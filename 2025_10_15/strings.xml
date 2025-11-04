@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="rejestruj_konto">Rejestruj konto</string>
+    <string name="podaj_e_mail">Podaj e-mail:</string>
+    <string name="email">email</string>
+    <string name="podaj_haslo">Podaj hasło:</string>
+    <string name="powtorz_haslo">Powtórz hasło:</string>
+    <string name="zatwierdz">ZATWIERŹ</string>
+    <string name="autor">Autor12345678901</string>
+</resources>
