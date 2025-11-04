@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="czesc">Cześć</string>
+    <string name="e_mail">e-mail</string>
+    <string name="wyslij">Wyślij</string>
+    <string name="resetuj">Resetuj</string>
+</resources>
