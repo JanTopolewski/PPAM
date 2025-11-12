@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2025_11_12</string>
+    <string name="hello_world">Hello World</string>
+    <string name="testinput1">TestInput1</string>
+    <string name="testinput2">TestInput2</string>
+    <string name="testinput3">TestInput3</string>
+</resources>

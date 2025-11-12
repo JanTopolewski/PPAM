@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textListHeader1"
+        android:text="@string/hello_world"
+        style="@style/Style1"/>
+
+
+    <TextView
+        android:id="@+id/textListElement1"
+        android:text="@string/hello_world"
+        style="@style/Style2"/>
+
+    <TextView
+        android:id="@+id/textListElement2"
+        android:text="@string/hello_world"
+        style="@style/Style3"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@style/Style1"
+        android:autofillHints="no"
+        android:inputType="text"
+        android:hint="@string/testinput1" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        style="@style/Style2"
+        android:autofillHints="no"
+        android:inputType="text"
+        android:hint="@string/testinput2" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        style="@style/Style3"
+        android:autofillHints="no"
+        android:inputType="text"
+        android:hint="@string/testinput3" />
+
+</LinearLayout>
