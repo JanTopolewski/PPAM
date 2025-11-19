@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Użyte motywy -->
+    <!-- 1. Theme.Material3.DayNight.NoActionBar -->
+    <!-- 2. Theme.AppCompat.DayNight.DarkActionBar -->
+    <!-- 3. Theme.Material3.Dark.NoActionBar -->
+    <!-- 4. Theme.MaterialComponents.Light.NoActionBar -->
+    <!-- 5. Theme.AppCompat.Light.NoActionBar -->
+    <!-- 6. Theme.AppCompat.Dialog.MinWidth -->
+    <style name="Base.Theme._2025_11_19" parent="Theme.AppCompat.Dialog.MinWidth">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme._2025_11_19" parent="Base.Theme._2025_11_19" />
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">2025_11_19</string>
+    <string name="formularz_rejestracyjny">Formularz rejestracyjny</string>
+    <string name="imie">Imie</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="email">Email</string>
+    <string name="haslo">Hasło</string>
+    <string name="wybierz_rodzaj_subskrypcji">Wybierz rodzaj subskrypcji</string>
+    <string name="pro">Pro</string>
+    <string name="plus">Plus</string>
+    <string name="free">Free</string>
+    <string name="wysylaj_oferty_na_adres_e_mail">Wysyłaj oferty na adres e-mail</string>
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="resetuj_formularz">Resetuj formularz</string>
+</resources>
