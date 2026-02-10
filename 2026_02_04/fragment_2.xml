@@ -12,33 +12,33 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:text="Podane dane" />
+        android:textSize="35sp"
+        android:text="@string/podane_dane" />
 
     <TextView
         android:id="@+id/emailOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="5dp"
-        android:text="Adres e-mail: " />
+        android:layout_marginVertical="10dp"
+        android:text="@string/adres_e_mail_output" />
 
     <TextView
         android:id="@+id/nameOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="5dp"
-        android:text="Imie: " />
+        android:layout_marginVertical="10dp"
+        android:text="@string/imie_output" />
 
     <TextView
         android:id="@+id/surnameOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginVertical="5dp"
-        android:text="Nazwisko: " />
+        android:layout_marginVertical="10dp"
+        android:text="@string/nazwisko_output" />
 </LinearLayout>
