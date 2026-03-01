@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SprawdzianJanTopolewski4d" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.SprawdzianJanTopolewski4d" parent="Base.Theme.SprawdzianJanTopolewski4d" />
+</resources>
