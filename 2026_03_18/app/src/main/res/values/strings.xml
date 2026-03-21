@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">egzamin</string>
+    <string name="wizyta_u_weterynarza">Wizyta u weterynarza</string>
+    <string name="imie_i_nazwisko_wlasciciela">Imię i nazwisko właściciela...</string>
+    <string name="gatunek">Gatunek</string>
+    <string name="ile_ma_lat_0">Ile ma lat? 0</string>
+    <string name="cel_wizyty">Cel wizyty</string>
+    <string name="_16_00">16:00</string>
+    <string name="ok">OK</string>
+</resources>
