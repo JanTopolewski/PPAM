@@ -8,4 +8,33 @@
     android:orientation="vertical"
     tools:context=".Activity3">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/gory_na_zoltym_tle"
+        app:srcCompat="@drawable/mountains1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/gory_na_czerwonym_tle"
+        app:srcCompat="@drawable/mountains2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/gory_na_niebieskim_tle"
+        app:srcCompat="@drawable/mountain3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/przycisk_4" />
 </LinearLayout>
