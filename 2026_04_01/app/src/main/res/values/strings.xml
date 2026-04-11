@@ -4,4 +4,8 @@
     <string name="przycisk_2">Przycisk 2</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</string>
     <string name="przycisk_3">Przycisk 3</string>
+    <string name="gory_na_zoltym_tle">Góry na żółtym tle</string>
+    <string name="gory_na_czerwonym_tle">Góry na czerwonym tle</string>
+    <string name="gory_na_niebieskim_tle">Góry na niebieskim tle</string>
+    <string name="przycisk_4">Przycisk 4</string>
 </resources>
