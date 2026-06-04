@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2026_04_15</string>
+    <string name="imie">Imię</string>
+    <string name="adres_e_mail">Adres e-mail</string>
+    <string name="zwieksz_liczbe">zwiększ liczbę</string>
+    <string name="kliknales_przycisk_0_razy">Kliknąłeś przycisk 0 razy</string>
+    <string name="najpierw_uzupelnij_swoje_dane">Najpierw uzupełnij swoje dane</string>
+</resources>
