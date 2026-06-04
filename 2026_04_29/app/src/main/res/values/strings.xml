@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">2026_04_29</string>
+    <string name="gory">Góry</string>
+    <string name="niedzwiedz">Niedźwiedź</string>
+    <string name="gory_lodowcowe">Góry lodowcowe</string>
+    <string name="zebry">Zebry</string>
+    <string name="slon">Słoń</string>
+    <string name="wiezowce">Wieżowce</string>
+    <string name="slimak">Ślimak</string>
+    <string name="ptak">Ptak</string>
+    <string name="pszczola">Pszczoła</string>
+    <string name="pole">Pole</string>
+    <string name="motyl">Motyl</string>
+    <string name="kwiatek">Kwiatek</string>
+    <string name="kot">Kot</string>
+    <string name="jelen">Jeleń</string>
+    <string name="kosciol">Kościół</string>
+    <string name="wybrany_obraz">Wybrany obraz</string>
+    <string name="zamknij">Zamknij</string>
+</resources>
