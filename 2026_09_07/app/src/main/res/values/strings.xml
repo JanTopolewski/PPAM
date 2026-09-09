@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">2026_09_07</string>
+    <string name="gra_w_kosci">Gra w kości. Autor 00000000000</string>
+    <string name="rzuc_koscmi">RZUĆ KOŚĆMI</string>
+    <string name="wynik_tego_losowania">Wynik tego losowania:</string>
+    <string name="wynik_gry">Wynik gry:</string>
+    <string name="resetuj_wynik">RESETUJ WYNIK</string>
+    <string name="kostka_do_gry">kostka do gry</string>
 </resources>
