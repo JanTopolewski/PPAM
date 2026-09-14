@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">2026_09_14</string>
+    <string name="urzadzenia_domowe">Urządzenia Domowe</string>
+    <string name="autor_00000000000">Autor: 00000000000</string>
+    <string name="washing_machine_photo">washing machine photo</string>
+    <string name="pralka">Pralka</string>
+    <string name="podaj_nr_prania_1_12">Podaj nr prania 1..12</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="numer_prania_nie_podano">Numer prania: nie podano</string>
+    <string name="vacuum_machine_photo">vacuum machine photo</string>
+    <string name="odkurzacz">Odkurzacz</string>
+    <string name="odkurzacz_wylaczony">Odkurzacz wyłączony</string>
+    <string name="status_naladowany">Status: naładowany</string>
+    <string name="wlacz">Włącz</string>
+</resources>
