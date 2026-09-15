@@ -28,14 +28,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/washingMachineImageView"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginBottom="20dp"
             android:layout_marginRight="20dp"
@@ -43,23 +42,24 @@
             app:srcCompat="@drawable/pralka" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
             <TextView
                 android:id="@+id/washingMachineTextBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:textSize="22sp"
                 android:text="@string/pralka" />
 
             <EditText
-                android:id="@+id/editTextBox"
+                android:id="@+id/washCycleNumberInput"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:autofillHints=""
                 android:ems="10"
-                android:inputType="number"
+                android:inputType="numberSigned"
                 android:background="#87CEEB"
                 android:textColor="#000080"
                 android:textColorHint="#000080"
@@ -67,15 +67,15 @@
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:backgroundTint="#4169E1"
-                android:layout_margin="10dp"
+                android:layout_margin="9dp"
+                app:cornerRadius="10dp"
                 android:text="@string/zatwierdz" />
 
             <TextView
-                android:id="@+id/resultTextBox"
+                android:id="@+id/washingMachineResultBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/numer_prania_nie_podano" />
@@ -84,48 +84,48 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:id="@+id/vacuumCleanerImageView"
+            android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginBottom="20dp"
             android:layout_marginRight="20dp"
-            android:contentDescription="@string/vacuum_machine_photo"
+            android:contentDescription="@string/vacuum_cleaner_photo"
             app:srcCompat="@drawable/odkurzacz" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/TextBox"
+                android:id="@+id/vacuumCleanerTextBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:textSize="22sp"
                 android:text="@string/odkurzacz" />
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:backgroundTint="#4169E1"
                 android:layout_margin="10dp"
+                app:cornerRadius="9dp"
                 android:text="@string/wlacz" />
 
             <TextView
-                android:id="@+id/statusTextBox"
+                android:id="@+id/vacuumCleanerOnBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/odkurzacz_wylaczony" />
 
             <TextView
-                android:id="@+id/statusTextBox2"
+                android:id="@+id/vacuumCleanerStatusBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/status_naladowany" />
