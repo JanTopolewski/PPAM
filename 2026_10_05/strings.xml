@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">2026_10_05</string>
+    <string name="domek_w_gorach">Domek w górach</string>
+    <string name="obraz_domkow_w_gorach">Obraz domków w górach</string>
+    <string name="polub">POLUB</string>
+    <string name="usun">USUŃ</string>
+    <string name="zapisz">ZAPISZ</string>
+    <string name="_0_polubien">0 polubień</string>
+    <string name="opis">Opis</string>
+    <string name="odwiedz_komfortowy_domek_w_sudetach_blisko_do_szlakow_turystycznych">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+    <string name="polubien">" polubień"</string>
+</resources>
