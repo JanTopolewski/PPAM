@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5F9EA0"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/appLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/encryptionKeyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FAEBD7"
+            android:textSize="25sp"
+            android:labelFor="@id/encryptionKeyInput"
+            android:text="@string/podaj_wartosc_klucza" />
+
+        <EditText
+            android:id="@+id/encryptionKeyInput"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="text"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textForEncryptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FAEBD7"
+            android:textSize="25sp"
+            android:labelFor="@id/textForEncryptionInput"
+            android:text="@string/podaj_tekst" />
+
+        <EditText
+            android:id="@+id/textForEncryptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="text"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/encryptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ADD8E6"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="0dp"
+            android:text="@string/zaszyfruj" />
+
+        <TextView
+            android:id="@+id/encryptionResultLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FAEBD7"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/tekst_zaszyfrowany" />
+
+        <TextView
+            android:id="@+id/encryptionResultBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F0F8FF"
+            android:layout_marginTop="15dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/saveToFileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ADD8E6"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/zapisz_szyfr_w_pliku" />
+
+    </LinearLayout>
+</ScrollView>

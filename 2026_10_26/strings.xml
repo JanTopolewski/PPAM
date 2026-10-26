@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">testapp1</string>
+    <string name="podaj_wartosc_klucza">Podaj wartość klucza</string>
+    <string name="podaj_tekst">Podaj tekst</string>
+    <string name="zaszyfruj">Zaszyfruj</string>
+    <string name="tekst_zaszyfrowany">Tekst zaszyfrowany</string>
+    <string name="zapisz_szyfr_w_pliku">Zapisz szyfr w pliku</string>
+</resources>
