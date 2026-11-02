@@ -8,8 +8,6 @@
     android:orientation="vertical"
     android:background="#5F9EA0"
     tools:context=".MainActivity">
-
-
     <LinearLayout
         android:id="@+id/appLayout"
         android:layout_width="match_parent"
@@ -52,6 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="200dp"
+            android:singleLine="false"
+            android:gravity="top|start"
             android:autofillHints=""
             android:ems="10"
             android:inputType="text"
