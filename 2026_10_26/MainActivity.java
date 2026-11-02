@@ -1,5 +1,6 @@
 package edu.zsk.a2026_10_26;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.io.FileOutputStream;
 
 public class MainActivity extends AppCompatActivity {
     String secretText;
@@ -61,7 +64,11 @@ public class MainActivity extends AppCompatActivity {
         saveToFileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                try (FileOutputStream fos = openFileOutput("encryptionResult.txt", Context.MODE_PRIVATE)){
+                    fos.write(secretText.getBytes());
+                } catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         });
     }
