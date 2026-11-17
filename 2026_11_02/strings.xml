@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2026_11_02</string>
+    <string name="dobierz_kolor_suwakami_i_zapisz_przyciskiem">Dobierz kolor suwakami i zapisz przyciskiem</string>
+    <string name="r">R</string>
+    <string name="_255">255</string>
+    <string name="g">G</string>
+    <string name="b">B</string>
+    <string name="pobierz">Pobierz</string>
+    <string name="_255_255_255">255, 255, 255</string>
+</resources>
