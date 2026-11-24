@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
+        android:importantForAutofill="no"
         android:hint="@string/imie_i_nazwisko_wlasciciela" />
 
     <TextView
@@ -65,6 +66,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
+        android:importantForAutofill="no"
         android:hint="@string/cel_wizyty" />
 
     <EditText
@@ -74,6 +76,7 @@
         android:ems="10"
         android:inputType="time"
         android:maxLength="5"
+        android:importantForAutofill="no"
         android:text="@string/_16_00"/>
 
     <Button
