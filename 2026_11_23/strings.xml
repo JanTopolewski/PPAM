@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">2026_11_23</string>
+    <string name="pocztowka">Pocztówka</string>
+    <string name="list">List</string>
+    <string name="paczka">Paczka</string>
+    <string name="rodzaj_przesylki">Rodzaj przesyłki</string>
+    <string name="sprawdz_cene">Sprawdź Cenę</string>
+    <string name="cena_1_5_zl">Cena: 1,5 zł</string>
+    <string name="ulica_z_numerem">Ulica z numerem</string>
+    <string name="kod_pocztowy">Kod pocztowy</string>
+    <string name="miasto">Miasto</string>
+    <string name="dane_adresowe">Dane adresowe</string>
+    <string name="zatwierdz">Zatwierdź</string>
+</resources>
